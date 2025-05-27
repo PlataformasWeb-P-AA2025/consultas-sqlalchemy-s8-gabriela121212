@@ -33,4 +33,4 @@ for tarea in tareas:
     #imprimos tareas asignadas
     print(f"Tarea: {tarea.titulo}")
     #imprimos el numero de entregas que tiene con len
-    #print(f"número de entregas: {len(tarea.entrega)}")
+    print(f"número de entregas: {len(tarea.entregas)}")
