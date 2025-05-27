@@ -15,7 +15,6 @@ from sqlalchemy import func
 
 departamentos = (
     # Seleccionamos el nombre del departamento
-    # Contamos la cantidad de cursos que tiene el departamento
     session.query(Departamento)
     # Relación unimos las tablas departamento-curso segun su relacion en la tabla
     .join(Curso).join(Tarea).join(Entrega)
